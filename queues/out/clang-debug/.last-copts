@@ -1,0 +1,1 @@
+-g -Wall -glldb -fstandalone-debug   -MMD -MP -MF .d    -isystem /Users/dibbenduroy/omnetpp-6.0/tools/macos.x86_64/include -Wno-deprecated-register -Wno-unused-function -fno-omit-frame-pointer  -DWITH_QTENV -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -DOMNETPPLIBS_IMPORT  -I. -I/Users/dibbenduroy/omnetpp-6.0/include

@@ -1,0 +1,28 @@
+version 3
+run General-0-20221016-03:17:07-28199
+attr configname General
+attr datetime 20221016-03:17:07
+attr datetimef 20221016-031707
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Mm1
+attr processid 28199
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network Mm1
+
+par Mm1.source typename "\"Source\""
+par Mm1.source sourcerate 1
+par Mm1.queue typename "\"Queue\""
+par Mm1.queue capacity 10000
+par Mm1.server typename "\"Server\""
+par Mm1.server servrate 1.2
+par Mm1 typename "\"Mm1\""
+
